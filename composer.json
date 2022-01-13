@@ -10,12 +10,15 @@
   ],
   "require": {
     "php": ">=7.3",
+    "fond-of-oryx/customer-product-list-connector-extension": "^1.0.0",
     "fond-of-spryker/product-list-customer": "dev-spryker_upgrade",
+    "spryker/log": "^3.9.0",
     "spryker/product-list": "^1.0.0"
   },
   "require-dev": {
     "fond-of-codeception/spryker": "^1.0",
-    "spryker/code-sniffer": "^0.12"
+    "spryker/code-sniffer": "^0.12",
+    "spryker-sdk/phpstan-spryker": "*"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
